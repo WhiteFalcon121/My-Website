@@ -97,11 +97,10 @@ body {
 }
 
 footer{
-  padding: 3%;
   color: black;
   background-color: white;
   position: relative;
   height: 10%
-  margin-top: -13%;
+  margin-top: -10%;
   clear: both;
 }
