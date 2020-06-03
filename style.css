@@ -95,3 +95,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+footer{
+  padding: 3%;
+  color: black;
+  background-color: white;
+}
