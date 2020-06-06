@@ -98,4 +98,7 @@ footer{
   text-align:center;
   width: 100%;
   background-color: white;
+  font-size: 130%;
+  font-family: 'Exo 2';
+  font-variant: small-caps;
 }
