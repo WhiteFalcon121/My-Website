@@ -82,7 +82,7 @@ a{
 }
 
 @keyframes movingback{
-  from {background-color: #C0C0C0;}
+  from {background-color: rgb(208, 208, 208);}
   to {background-color: rgb(235, 235, 235);}
 }
 
