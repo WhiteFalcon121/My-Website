@@ -93,13 +93,20 @@ body {
 }
 
 footer{
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  left:0;
   text-align:center;
   width: 100%;
   background-color: white;
   font-size: 130%;
   font-family: 'Exo 2';
   font-variant: small-caps;
+  height: 10%; /*to ensure footer is minimised when resized*/
+}
+
+#container{
+  position: relative;
+  min-height:600px;
+  height: auto !important;
+  height:600px;
 }
