@@ -24,6 +24,7 @@
 }
 
 .intro {
+  position:static;
   text-align: center;
   font-family: Verdana;
   font-size: 150%;
