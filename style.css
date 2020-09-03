@@ -1,12 +1,8 @@
 #logo {
   position: relative;
-  /*top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);*/
   object-fit: scale-down;
   display:block;
   width:400px;
-  /*transform:translate(0%, 50%);*/
   align:center;
   margin-left: auto;
   margin-right: auto;
@@ -17,7 +13,7 @@
 
 #button_3nrgy{
   color:black;
-  font-size: 150%;
+  font-size: 125%;
   position:relative;
   display: inline-block;
   border:2px solid rgb(255, 255, 255);
@@ -66,7 +62,6 @@ a{
   height:50%;
   top:0;
   left:0;
-  z-index: 1;
 }
 
 .linktopages{
@@ -105,6 +100,8 @@ footer{
   font-family: 'Exo 2';
   font-variant: small-caps;
   height: 10%; /*to ensure footer is minimised when resized*/
+  color: gray;
+  z-index:1;
 }
 
 #container{
