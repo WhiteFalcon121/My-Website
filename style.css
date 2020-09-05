@@ -33,6 +33,31 @@
   background-color:white;
 }
 
+.circle2:hover{
+  cursor:pointer;
+  /*PLAY fading ANIMATION*/
+  animation: circle_fade_in 1s forwards;
+}
+/*
+ONCLICK (JS){
+  play sliding animation and background color changing animation on click
+  animation: slide_in 1s;
+  animation-timing-function: ease-in;
+}*/
+
+@keyframes circle_fade_in{
+  to {background-color: white;}
+}
+
+@keyframes slide_in{
+  0%{
+    transform:translateX(-100%);
+  }
+  100%{
+    transform:translateX(0);
+  }
+}
+
 .intro {
   position:static;
   text-align: center;
@@ -83,6 +108,8 @@ body {
   margin: 0%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  opacity: 0;
+  transition: opacity 2s;
 }
 
 #container{
