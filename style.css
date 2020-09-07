@@ -104,12 +104,17 @@ ONCLICK (JS){
   to {background-color: rgb(66, 152, 245);}
 }
 
+@keyframes fade_in{
+  from{opacity:0;}
+  to {opacity:1;}
+}
+
 body {
   margin: 0%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   opacity: 0;
-  transition: opacity 2s;
+  animation:fade_in 2s;
 }
 
 #container{
