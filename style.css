@@ -38,24 +38,9 @@
   /*PLAY fading ANIMATION*/
   animation: circle_fade_in 1s forwards;
 }
-/*
-ONCLICK (JS){
-  play sliding animation and background color changing animation on the click
-  animation: slide_in 1s;
-  animation-timing-function: ease-in;
-}*/
 
 @keyframes circle_fade_in{
   to {background-color: white;}
-}
-
-@keyframes slide_in{
-  0%{
-    transform:translateX(-100%);
-  }
-  100%{
-    transform:translateX(0);
-  }
 }
 
 .intro {
@@ -64,24 +49,6 @@ ONCLICK (JS){
   font-family: Verdana;
   font-size: 150%;
   object-fit: scale-down;
-}
-
-.button{
-  color:black;
-  font-size: 150%;
-  border:none;
-  position:relative;
-  display: inline-block;
-  padding: 1%;
-  background: rgb(66, 152, 245);
-}
-
-.button:hover{
-  cursor:pointer;
-  /*background-color: rgb(192,192,192);*/
-  background-color:white;
-  border-right: solid 2px gray;
-  border-left: solid 2px gray;
 }
 
 #index_page{
