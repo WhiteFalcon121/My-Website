@@ -53,12 +53,14 @@
 
 #index_page{
   height: 100%;
-  background-color: rgb(66, 152, 245);
+  /*background-color: rgb(66, 152, 245);*/
+  background: linear-gradient(8deg, rgba(40, 30, 212, 1) 0%, rgba(66,152,245,1) 33%, rgba(0,255,252,1) 100%);
 }
 
 #_3nrgy_page{
   height: 100%;
-  background-color: rgb(240, 113, 185);
+  /*background-color: rgb(240, 113, 185);*/
+  background: linear-gradient(23deg, rgba(191, 47, 200, 100)10%, rgba(255, 78, 179, 100)42%, rgba(247, 78, 179, 100)64%, rgba(78, 147, 255, 100)96%);
 }
 
 #about_me_page{
@@ -89,4 +91,8 @@ body {
   min-height:600px;
   height: auto !important;
   height:600px;
+}
+
+html{
+  height: 100%;
 }
